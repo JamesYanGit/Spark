@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spark", "Spark\Spark.csproj", "{EF9BE652-C597-440F-B410-9CFB9CC32A56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTPHelper", "..\FTPHelper\FTPHelper.csproj", "{4060401A-AA69-4CDC-9147-3BA7BCFA0EB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystemModule", "..\FileSystemModule\FileSystemModule.csproj", "{23073B51-A5C2-4B5D-8721-11DD6004A3C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressSelecter", "..\AddressSelecter\AddressSelecter.csproj", "{F166EE8A-973E-426F-B0B5-42E0C4AC0B34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginModule", "..\LoginModule\LoginModule.csproj", "{1304EEF6-7B1C-44B3-8236-2D355F108E99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeAdjuster", "..\TimeAdjuster\TimeAdjuster.csproj", "{18158C1B-2EAD-471F-B77F-88D5131EBF0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF9BE652-C597-440F-B410-9CFB9CC32A56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF9BE652-C597-440F-B410-9CFB9CC32A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF9BE652-C597-440F-B410-9CFB9CC32A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF9BE652-C597-440F-B410-9CFB9CC32A56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4060401A-AA69-4CDC-9147-3BA7BCFA0EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4060401A-AA69-4CDC-9147-3BA7BCFA0EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4060401A-AA69-4CDC-9147-3BA7BCFA0EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4060401A-AA69-4CDC-9147-3BA7BCFA0EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23073B51-A5C2-4B5D-8721-11DD6004A3C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23073B51-A5C2-4B5D-8721-11DD6004A3C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23073B51-A5C2-4B5D-8721-11DD6004A3C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23073B51-A5C2-4B5D-8721-11DD6004A3C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F166EE8A-973E-426F-B0B5-42E0C4AC0B34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F166EE8A-973E-426F-B0B5-42E0C4AC0B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F166EE8A-973E-426F-B0B5-42E0C4AC0B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F166EE8A-973E-426F-B0B5-42E0C4AC0B34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1304EEF6-7B1C-44B3-8236-2D355F108E99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1304EEF6-7B1C-44B3-8236-2D355F108E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1304EEF6-7B1C-44B3-8236-2D355F108E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1304EEF6-7B1C-44B3-8236-2D355F108E99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18158C1B-2EAD-471F-B77F-88D5131EBF0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18158C1B-2EAD-471F-B77F-88D5131EBF0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18158C1B-2EAD-471F-B77F-88D5131EBF0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18158C1B-2EAD-471F-B77F-88D5131EBF0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6227EA02-35CE-4100-B05F-F2E2C7C35A0C}
+	EndGlobalSection
+EndGlobal

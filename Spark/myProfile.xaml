@@ -1,0 +1,18 @@
+﻿<Window x:Class="Spark.myProfile"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Spark"
+        mc:Ignorable="d"
+        Title="myProfile" Height="450" Width="800">
+    <Grid>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="74,88,0,0" TextWrapping="Wrap" Text="Channel:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="74,67,0,0" TextWrapping="Wrap" Text="Nick Name:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="ChannelNumber" HorizontalAlignment="Left" Margin="125,88,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBox x:Name="nickname" HorizontalAlignment="Left" Margin="140,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="getMyContactID" Content="My contact ID" HorizontalAlignment="Left" Margin="525,133,0,0" VerticalAlignment="Top" Width="141" Click="getMyContactID_Click"/>
+        <TextBox x:Name="myContactID" HorizontalAlignment="Left" Margin="74,133,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="432"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Temp\1.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json.Schema" Version="3.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\AddressSelecter\AddressSelecter.csproj" />
+    <ProjectReference Include="..\..\FileSystemModule\FileSystemModule.csproj" />
+    <ProjectReference Include="..\..\FTPHelper\FTPHelper.csproj" />
+    <ProjectReference Include="..\..\TimeAdjuster\TimeAdjuster.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ContactRequestFolder\" />
+    <Folder Include="Contact\" />
+    <Folder Include="Temp\" />
+  </ItemGroup>
+
+</Project>
